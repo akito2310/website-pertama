@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>website pertama urang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {font-size: 40px;}
+        p {font-size: 20px;}
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: orange;
+            color: white;
+            border: 2px solid navy;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {background-color: red;}
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 90%;
+            max-width: 350px;
+            margin-top: 30px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agam Rahmat Portofolio</h1>
+    <p>Calon Hengker idaman</p>
+    <img src="gwganteng.jpg.jpg" alt="Foto Agam Rahmat" style="border-radius: 50%; max-width: 200px; height:auto ;">
+<div class="buttons">
+    <button onclick="IG()">Link IG</button>
+    <button onclick="DC()">Link DC WNI</button>
+    <button onclick="YT()">Link YT</button>
+    </div>
+<script>
+    function IG() {
+        window.open("https://www.instagram.com/agamrahmat.mp3/","_blank")}
+    function DC() {
+        window.open("https://discord.gg/uXDqFQFD","_blank")}
+    function YT() {
+        window.open("https://youtu.be/Aq5WXmQQooo?si=4XO8AyydhgTo0Utk","_blank")}
+</script>
+</body>
+</html>
